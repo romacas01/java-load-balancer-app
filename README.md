@@ -1,5 +1,5 @@
-This application is designed to simulate a simple Layer 4 load balancer.
-It distributes incoming requests to backend servers using a round-robin strategy
+This application simulates a Layer 4 (transport layer) load balancer.
+It distributes incoming requests to backend servers using a round-robin strategy, while also simulating server failures and recoveries.
 
 # BackendServer
 - Represents a simple backend server that accepts requests forwarded by the load balancer.
